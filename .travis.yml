@@ -37,6 +37,7 @@ install:
   - conda install -n testenv matplotlib
 
 script:
+  - python -c "import scipy"
 
 notifications:
   email:
